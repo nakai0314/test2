@@ -1,8 +1,8 @@
 <?php
 
-$age = 20;
-if( $age < 19){
+$age = 23;
+if( $age < 20){
     echo '成人です';
-}elseif( $age > 21){
+}elseif( $age >= 20){
     echo '未成年です';
 }
