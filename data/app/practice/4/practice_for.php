@@ -1,7 +1,7 @@
 <?php
 
-// forを使って１から１０まで合計する
+$sum = 0;
 for($sum = 1; $sum <= 10; $sum++){
-echo $sum.'行目です。<br>';
-}
-
+    $sum += $i;
+    }
+echo $sum;
