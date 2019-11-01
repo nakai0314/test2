@@ -5,16 +5,20 @@
     <select name="year">
     <?php
     $now = date("Y");
-    ?>
+    for($i = 1950; $i <= $now; $i++){ ?>
+    <option value="<?php echo $i;?>"><?php echo $i;?></option>
+    <?php } ?>
     </select>年
     <br>
     <select name="month">
-    <option value="1">1</option>
-    <option value="2">2</option>
+    <?php for($i = 1; $i <= 12; $i++){?>
+    <option value="<?php echo $i;?>"><?php echo $i;?></option>
+    <?php } ?>
     </select>月
     <select name="day">
-    <option value="1">1</option>
-    <option value="2">2</option>
+    <?php for($i = 1; $i <= 31; $i++){?>
+    <option value="<?php echo $i;?>"><?php echo $i;?></option>
+    <?php } ?>
     </select>日
 </body>
 </html>
