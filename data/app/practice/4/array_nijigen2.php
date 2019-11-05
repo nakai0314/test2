@@ -1,6 +1,6 @@
 <?php
 
-$array = array(
+$arrays = array(
     0 => array(
         'name' => '鈴木',
         'hobby' => 'テニス',
