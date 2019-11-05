@@ -5,3 +5,8 @@ $array = array(
     'age' => '27',
     'blood' => 'AB'
 );
+echo $array['age'];
+
+foreach($array as $key => $var){
+    echo $key.':'.$var.'<br>';
+}
